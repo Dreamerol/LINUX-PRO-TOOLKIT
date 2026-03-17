@@ -99,3 +99,46 @@ we give a condition - number of fields > 1 NR
 NR - number of lines
 NF - number of fields
 
+
+commands
+cat 
+cd 
+mkdir
+grep
+cp
+ls 
+tr
+mv
+man
+cowsay
+xargs
+sort - k means by key
+uniq
+KEYDEF - sort
+tr
+tr -d flag for deleting 
+tr -d 'a'
+tr "[:lower:]" "[:upper:]"
+tr 'a-z''A-Z'
+cat file | tail -n +2 -means print all the lines from the second one to the end
+translates -> uses mapping two sets with equal length
+ 
+echo "aaa" | head -c 1 ->gets the first byte
+
+. - symbol
+\< start of word \>
+atom - ()
+{3,5} - three to five symbols
+grep -E '.{,5}' -> to six symbols
+
+cat /tmp/data | awk '/.{5,} -> means more than five symbols
+cat emp.dta | awk '{ print $2="" }'
+cat emp.data | awk '{ $2 + $3 } { print }'
+
+VIM
+-NORMAL
+-INSERT
+-VISUAL
+:q + enter
+w for writing mode to write the text in a file
+
