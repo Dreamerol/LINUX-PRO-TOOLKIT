@@ -1,0 +1,143 @@
+tasks sbornik
+--zad1
+grep -E '[^a-w]*' philip.txt | grep -E '[02468]' | wc -l - matches 
+-> first we pass the name of the file
+then we get the lines when matching not a-w 
+'.'- means random symbol
+
+then we match the lines - '[abv]' -> does anything from the class [56..] - is in the line
+cat /srv/sample-data/01-shell/2016-SE-01/philip-j-fry.txt 
+| grep -E '[02468]' | grep -E -v  --color  '[a-w]' | wc -l
+-v -> means inverted
+
+grep -E '[02468]' | grep -E --color  '^[^a-w]*$' -from the beginning to the end symbols that are not a to w 
+^ - start
+$ - end
+
+--zad2
+idea
+ls -l | awk -F' ' -v id="$(whoami)" '{ if(id==$3) print $0 }' | wc -l
+ls -l ->works only for the current directory
+solution:
+find / -user "$(whoami)" 2> /dev/null | wc -l
+find / -> searches from the whole filesystem
+
+-exec command {} + - run it as many files as you can
+-exec command {} \; -> end of command
+awk by default if we dont pass delimiter removes all the whitespaces
+
+find / -exec ls -l {} \; 2> /dev/null | awk -v user="$(whoami)" '{if($3 == user) print user}' | wc -l
+super slow
+
+find / -exec ls -l {} + 2> /dev/null | awk -v user="$(whoami)" '{if($3 == user) print user}' | wc -l
+
+--zad3
+a/ find / -type f -empty -printf "%f\n" 2> /dev/null
+ find / -type f -size 0 -printf "%f\n" 2> /dev/null
+->print all the empty files
+print all the empty files -empty
+b/ ls -l | sort -nr -k5 | head -n 5 | awk '{for(i=9;i<=NF;i++) printf $i " "; print ""}'
+-> print the filenames of the biggest files in ls the fifth field is the size and from the ninth it is the name
+
+--zad4
+echo djhdjdj | head -c 3 | tail -c +2 -> to get the 2nd and 3rd symbol
+-> split method [field, array,delimiter]
+-> ~ like regex like
+
+grep ",,,,SI" /etc/passwd | awk -F: '{split($5,n,",");split(n[1], m, " ");
+ if(m[2] ~ /а$/) print $0}' | cut -d: -f1 | head -c 3 | tail -c +2 
+| sort | uniq -c | sort -nr | head -n 1
+
+--zad5
+print the files with the most hardlinks
+the second field of ls
+ls -l | sort -nr -t' ' -k2 | head -n 5 | awk -F' ' '{for(i=9;i<=NF;i++) printf $i " "; print " " }'
+ls / -l | sort -nr -t' ' -k2 | head -n 5 | awk -F' ' '{for(i=9;i<=NF;i++) printf $i " "; print " " }' -from the current directory
+
+--zad6
+find ~ -type d -exec chmod 755 {} \;
+or
+find ~ -type d -exec chmod 755 {} +
+
+chmod changes the permissions
+so dirs are 777 and the umask is 022 -> so we get 755 
+
+--zad 7
+or ~
+find /home/pesho -type f -links +1 -printf "%T@ %i %p\n" | sort -nr | head -n1 | awk '{print $2}'
+T@ -> gives as the modified time by seconds 
+%i -> gives us the inode
+%p -> path
+-links +1 -> means the file has more than one hardlink -> more than one name
+
+--zad 8
+cat /etc/passwd | awk -F: '{split($5, n ,","); print n[1] ":" $6}' | sort -t/ -k4
+-> sort by faculty number and print the name, directory of the student
+
+--zad 9
+vim file.txt
+redactor
+:q! -> quit every time
+:w -> writes ina file
+
+first way the first planet of the type of the last planet printed
+typi="$(cat planets.txt |tail -n +2| sort -t';' -k3|tail -n1|cut -d';' -f2)"     
+cat planets.txt | tail -n +2 | sort -t';' -k3 
+| awk -v user="$typi" -F';' '{if($2 == user) print $0}' |
+ head -n 1 | awk -F';' '{print $1 " " $4}'
+
+checking whether the closest and the farthest planet are from the same type if yes print the name and mass of the planet
+cat planets.txt | tail -n +2 | sort -t';' -k3 | head -n 1 | awk -v user="$typi" -F';' '{if(user == $2) print $1 "\t" $4}'
+->prints with tabs formatted
+cat planets.txt | awk -F';' '{print $1 "\t" $2}'
+
+
+--10
+date -d @4242425 "%Y%m%d%H%M"
+date -d @2656262 "%Y%m%d%H%M"
+touch -t 425242222 start
+touch -t 425425452 end
+find /home/SI -mindepth 1 -maxdepth 1 -type d -cnewer start ! -cnewer end \
+> | xargs -n1 basename \
+> | xargs -I{} grep "^{}:" /etc/passwd \
+> awk -F: '{ fn=substr($1,2); split($5, a, ","); print fn "\t" a[1] }'
+
+--11
+a/ino=$(find /home/velin -type f -printf '%@T %i %p\n' | sort -n | tail -n 1 | awk '{print $2}')
+find /home/velin -type f -inode "$ino" -printf '%d'
+%d - means depth
+%@T - get the time of modification
+%i - gets the inode
+%p - gets the path
+
+b/find /home/velin -type f -printf '%d %p' | sort -n | head -n 1| awk '{print $2}'| xargs -n1 basename
+
+--12
+find ~ -type f -perm 644 -exec chmod g+w {} \;
+
+--13
+uniq -c -> count
+cosmo=$(cat cosmos.txt | tail -n +2 | awk -F'|' '{if($3=="Failure") print $2}' | sort | uniq -c| sort -nr | head -n 1)
+cat cosmos.txt | awk -v com="$cosmo" -F'|' '{if($2==com) print $0}' | sort -t' ' -k1 | tail -n 1 | cut -d'|' -f4
+
+--14
+first version
+ find ~ -type f -maxdepth 1 -exec ls -l {} \; | awk -v user=$(whoami) -F' ' '{if(user==$3) print $NF }' | xargs-n chmod 664
+find ~ -type f -maxdepth 1 -user $(whoami) -exec chmod 664 {} \;
+
+--15
+find ~ -type f -user "$(whoami)" |grep -E '.blend<[0-9]+>$'
+
+--16
+find /var/log/my_logs -type f | grep -Eo '<[a-zA-Z0-9_]+>_<[0-9]+>.log' | xargs -n1 grep -o 'error' | wc -l
+
+s0600443@astero:~$ cat philip.txt | grep -o '3' | wc -l -> prints all the parts matching
+3
+s0600443@astero:~$ cat philip.txt | grep '3' | wc -l -> prints the lines matching
+2
+
+[ks...] - match any character inside
+[a-zA-Z0-9_.]+@(mail|gmail).com - email regex
+--17
+
+
