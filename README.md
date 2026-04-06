@@ -1,7 +1,5 @@
 
 <h1 align="center">💻 LINUX-PRO-TOOLKIT</h1>
-
-<h1 align="center">💻 LINUX-PRO-TOOLKIT</h1>
 <p align="center">
 A professional Linux toolkit for OS experiments, scripting, and system mastery.
 </p>
