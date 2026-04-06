@@ -3,12 +3,10 @@
 
 <h2 align="center"><strong><em>🐧 A professional Linux course toolkit for mastering OS commands, scripting, automation, and system management </em></strong></h2>
 
----
 
 <img src="https://github.com/Dreamerol/Dreamerol/blob/9c27f8051d0cdf5ce4167beec8fc860919786878/LINUX22.PNG" alt="Linux Screenshot" width="100%">
 
 
----
 
 ## 🌟 Course Overview / История на курса
 
