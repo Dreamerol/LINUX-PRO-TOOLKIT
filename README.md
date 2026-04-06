@@ -6,7 +6,16 @@
 
 <img src="https://github.com/Dreamerol/Dreamerol/blob/9c27f8051d0cdf5ce4167beec8fc860919786878/LINUX22.PNG" alt="Linux Screenshot" width="100%">
 
+---
+<br>
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://www.kernel.org/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![GitHub Repo stars](https://img.shields.io/github/stars/Dreamerol/Dreamerol?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dreamerol/Dreamerol/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/Dreamerol/Dreamerol?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dreamerol/Dreamerol/issues)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://github.com/Dreamerol/Dreamerol/blob/main/LICENSE)
 
+---
 
 ## 🌟 Course Overview / История на курса
 
