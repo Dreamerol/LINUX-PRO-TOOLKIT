@@ -1,9 +1,7 @@
 
 <h1 align="center">💻 LINUX-PRO-TOOLKIT</h1>
 
-<p align="center">
-🐧 A professional Linux course toolkit for mastering OS commands, scripting, automation, and system management. 🐧
-</p>
+<h2 align="center"><strong><em>🐧 A professional Linux course toolkit for mastering OS commands, scripting, automation, and system management </em></strong></h2>
 
 ---
 
