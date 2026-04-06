@@ -1,17 +1,6 @@
 
 <h1 align="center">💻 LINUX-PRO-TOOLKIT</h1>
 <p align="center">
-A professional Linux toolkit for OS experiments, scripting, and system mastery.
-</p>
-
----
-
-
-
-
-
-<h1 align="center">💻 LINUX-PRO-TOOLKIT</h1>
-<p align="center">
 A professional Linux course toolkit for mastering OS commands, scripting, automation, and system management. 🚀🐧
 </p>
 
@@ -29,7 +18,7 @@ This repository is designed as a **hands-on Linux course**, guiding you from **i
 - 🌐 Networking, security, and performance monitoring  
 - 📂 Real-world exercises and projects  
 
-> Perfect for **mid-level developers, sysadmins, and engineers** aiming to level up their Linux expertise. 💪
+## Perfect for **mid-level developers, sysadmins, and engineers** aiming to level up their Linux expertise. 💪
 
 ---
 
@@ -61,23 +50,6 @@ This repository is designed as a **hands-on Linux course**, guiding you from **i
 
 ---
 
-## 🎯 Achievements / Badges
-
-<p align="center">
-![Beginner](https://img.shields.io/badge/Beginner-%F0%9F%A5%89-brightgreen)
-![Intermediate](https://img.shields.io/badge/Intermediate-%F0%9F%A5%88-yellow)
-![Advanced](https://img.shields.io/badge/Advanced-%F0%9F%A5%87-orange)
-![Expert](https://img.shields.io/badge/Expert-%F0%9F%92%8E-blue)  
-![Fast Learner](https://img.shields.io/badge/Fast%20Learner-%E2%9A%A1-lightgrey)
-![SysAdmin](https://img.shields.io/badge/SysAdmin-%F0%9F%9B%A0-purple)
-![Power User](https://img.shields.io/badge/Power%20User-%F0%9F%92%AA-cyan)
-![Automation](https://img.shields.io/badge/Automation-%E2%9C%94-orange)
-![Networking](https://img.shields.io/badge/Networking-%F0%9F%93%8C-blueviolet)
-![Linux Hero](https://img.shields.io/badge/Linux%20Hero-%F0%9F%8E%AF-red)
-</p>
-
----
-
 ## 📊 Practical Exercises / Практически упражнения
 
 - 📂 Bash scripts & automation logs  
@@ -85,45 +57,7 @@ This repository is designed as a **hands-on Linux course**, guiding you from **i
 - 🌐 Network traffic & process analysis  
 - 🖥️ Step-by-step OS configuration labs  
 
-> All exercises are **hands-on**, designed for **professional skill-building**. 🎓
-
----
-
-## 🚀 Getting Started / Стартиране
-
-```bash
-# Clone the repo
-git clone https://github.com/YourUsername/LINUX-PRO-TOOLKIT.git
-
-# Navigate to the repo
-cd LINUX-PRO-TOOLKIT
-
-# Run Bash scripts or Python automation tasks
-./example-script.sh
-python3 automation.py
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## All exercises are **hands-on**, designed for **professional skill-building**. 🎓
 
 
 ---
