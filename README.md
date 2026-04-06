@@ -17,7 +17,7 @@ This repository is designed as a **hands-on Linux course**, guiding you from **i
 - 🌐 Networking, security, and performance monitoring  
 - 📂 Real-world exercises and projects  
 
-## Perfect for **mid-level developers, sysadmins, and engineers** aiming to level up their Linux expertise. 💪
+### Perfect for **mid-level developers, sysadmins, and engineers** aiming to level up their Linux expertise. 💪
 
 ---
 
