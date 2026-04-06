@@ -1,7 +1,8 @@
 
 <h1 align="center">💻 LINUX-PRO-TOOLKIT</h1>
+
 <p align="center">
-A professional Linux course toolkit for mastering OS commands, scripting, automation, and system management. 🚀🐧
+🐧 A professional Linux course toolkit for mastering OS commands, scripting, automation, and system management. 🐧
 </p>
 
 ---
@@ -58,7 +59,6 @@ This repository is designed as a **hands-on Linux course**, guiding you from **i
 - 🖥️ Step-by-step OS configuration labs  
 
 ## All exercises are **hands-on**, designed for **professional skill-building**. 🎓
-
 
 ---
 
