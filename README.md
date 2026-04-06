@@ -1,6 +1,12 @@
 
 <h1 align="center">💻 LINUX-PRO-TOOLKIT</h1>
 
+---
+
+
+
+---
+
 ## 📄 Description
 
 This project demonstrates a variety of tasks performed in a 🐧 Linux environment using essential command-line tools, pipelines, and shell scripting. It focuses on combining basic commands with powerful utilities to efficiently process, filter, and analyze data.
