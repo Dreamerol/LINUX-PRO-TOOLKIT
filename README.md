@@ -219,12 +219,6 @@ This project demonstrates how tools can be combined in pipelines to perform comp
 Overall, this project highlights the ⚡ efficiency and flexibility of Linux command-line tools and shell scripting for solving real-world problems in a concise and scalable way.
 
 
-
-<p align="center">
-  🔗 Explore more on my GitHub profile: 
-  <a href="https://github.com/Dreamerol">github.com/Dreamerol</a>
-</p>
-
 ---
 
 <p align="center">
@@ -242,4 +236,24 @@ Overall, this project highlights the ⚡ efficiency and flexibility of Linux com
   <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" title="Linux System Management & Shell"/>
   <img alt="Mathematical Modeling" src="https://img.shields.io/badge/Math_Modeling-1E90FF?style=for-the-badge" title="Mathematical Modeling & Simulations (ODEs, SIR Models)"/>
 </p>
+
+
+---
+
+
+
+<div align="center">
+  <p style="font-size:12px; line-height:1.6; letter-spacing:0.2px;">
+    Михаела Косева (Mihaela Koseva) • Software Engineer • Data Science • Data Systems & APIs • Backend Engineer • AI Engineer • Applied Machine Learning • Deep Learning • Predictive Modeling • Neural Networks • Model Training • Data Pipelines • Python • C++ • SQL 
+  </p>
+
+  <p style="font-size:10px; opacity:0.7;">
+    🔗 Explore more on my GitHub profile: 
+    <a href="https://github.com/dreamerol">GitHub: dreamerol</a>
+  </p>
+</div>
+
+
+
+
 
