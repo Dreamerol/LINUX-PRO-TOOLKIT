@@ -216,11 +216,11 @@ This project demonstrates how tools can be combined in pipelines to perform comp
 
 <div align="center">
 
-<h2>💡 Conclusion</h2>
+<h1>💡 Conclusion</h1>
 
-<p>
+<h2>
 Overall, this project highlights the ⚡ efficiency and flexibility of Linux command-line tools and shell scripting for solving real-world problems in a concise and scalable way.
-</p>
+</h2>
 
 </div>
 
