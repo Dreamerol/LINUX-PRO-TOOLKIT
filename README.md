@@ -103,8 +103,9 @@ This repository is designed as a **hands-on Linux course**, guiding you from **i
 
 <p align="center">
 🐧 Linux (Ubuntu, Fedora, Debian) &nbsp; | &nbsp; 🖥️ Bash/Shell &nbsp; | &nbsp; 🐍 Python  
-🛠️ Git/GitHub &nbsp; | &nbsp; ⚡ Vim/VS Code &nbsp; | &nbsp; 🗄️ System Utilities & Monitoring Tools
+🛠️ Git/GitHub &nbsp; | &nbsp; ⚡ Vim/VS Code &nbsp; | &nbsp; 🗄️ Utilities & Monitoring Tools
 </p>
+
 
 ---
 
