@@ -116,7 +116,7 @@ This repository is designed as a **hands-on Linux course**, guiding you from **i
 - 🌐 Network traffic & process analysis  
 - 🖥️ Step-by-step OS configuration labs  
 
-### All exercises are **hands-on**, designed for **professional skill-building**. 🎓
+### All exercises are **hands-on**, designed for **professional skill-building**. 
 
 ---
 
