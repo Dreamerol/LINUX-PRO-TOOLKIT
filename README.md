@@ -219,7 +219,7 @@ This project demonstrates how tools can be combined in pipelines to perform comp
 <h1>💡 Conclusion</h1>
 
 <h2>
-Overall, this project highlights the ⚡ efficiency and flexibility of Linux command-line tools and shell scripting for solving real-world problems in a concise and scalable way.
+Overall, this project highlights the efficiency and flexibility of Linux command-line tools and shell scripting for solving real-world problems in a concise and scalable way.
 </h2>
 
 </div>
