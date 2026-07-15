@@ -2,12 +2,10 @@
 <h1 align="center">🐧 𝗟𝗜𝗡𝗨𝗫 𝗣𝗥𝗢 𝗧𝗢𝗢𝗟𝗞𝗜𝗧</h1>
 
 
-https://raw.githubusercontent.com/Dreamerol/Dreamerol/main/LINUX3.jpg
+
 
 <h1 align="center"><strong>Advanced Linux utilities for automation, shell scripting, system administration and command-line workflows</strong></h1>
 
-
-<img src="https://raw.githubusercontent.com/Dreamerol/Dreamerol/main/LINUX22.PNG" alt="Linux Screenshot" width="100%">
 
 <img src="https://raw.githubusercontent.com/Dreamerol/Dreamerol/main/LINUX3.jpg" alt="Linux Screenshot" width="100%">
 
