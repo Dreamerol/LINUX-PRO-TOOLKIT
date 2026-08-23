@@ -204,9 +204,8 @@ Overall, this project highlights the efficiency and flexibility of Linux command
 
 
 
+<h2 align="center">⭐ Explore repos & star what you find interesting.</h2>
 
-
-<h2 align="center">⭐ Feel free to explore repos and star if you find them interesting</h2>
 
 
 
