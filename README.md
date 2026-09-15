@@ -329,7 +329,12 @@ This project demonstrates how tools can be combined in pipelines to perform comp
 - 📊 Extracting specific fields from files  
 - 🔢 Counting and summarizing information  
 - 📁 Searching for files and processing their contents  
-- 🔁 Automating repetitive command-line operations  
+- 🔁 Automating repetitive command-line operations
+
+
+
+---
+
 
 
 
