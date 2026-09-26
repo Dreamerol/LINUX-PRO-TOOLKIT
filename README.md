@@ -198,6 +198,11 @@ alt="Mihaela Koseva (Михаела Косева), Sofia University (Софий�
 
 
 
+<div align="left">
+
+
+
+<div align="left">
 
 
 
@@ -347,6 +352,10 @@ Overall, this project highlights the efficiency and flexibility of Linux command
 </div>
 
 
+</div>
+
+
+</div>
 
 
 
