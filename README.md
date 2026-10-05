@@ -15,7 +15,7 @@
 <h1 align="center">
      <a href="https://github.com/Dreamerol/CARDFOLIO"
      title="linux — CARDFOLIO • Mihaela Koseva (Михаела Косева) • Sofia University (Софийски университет) • SMG (СМГ) • Sofia • AI Engineer">
-    <b>Advanced Linux utilities for automation, shell scripting, system administration and command-line workflows</b>
+    <b>Advanced Linux utilities for automation and scripting</b>
   </a>
 </h1>
 
