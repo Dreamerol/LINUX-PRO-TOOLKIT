@@ -1,14 +1,33 @@
 
 
+<h1 align="center">
+  🐧 <a href="https://github.com/Dreamerol/CARDFOLIO"
+     title="LINUX — CARDFOLIO • Mihaela Koseva (Михаела Косева) • Sofia University (Софийски университет) • SMG (СМГ) • Sofia • AI Engineer">
+    <b>𝗟𝗜𝗡𝗨𝗫 𝗣𝗥𝗢 𝗧𝗢𝗢𝗟𝗞𝗜𝗧</b>
+  </a>
+</h1>
+
+
+<a href="https://github.com/Dreamerol/CARDFOLIO">
+   title="LINUX — CARDFOLIO • Mihaela Koseva (Михаела Косева) • Sofia University (Софийски университет) • SMG (СМГ) • Sofia • AI Engineer">
+  <h1 align="center"><strong>Advanced Linux utilities for automation, shell scripting, system administration and command-line workflows</strong></h1>
+</a>
 
 
 
-<h1 align="center">🐧 𝗟𝗜𝗡𝗨𝗫 𝗣𝗥𝗢 𝗧𝗢𝗢𝗟𝗞𝗜𝗧</h1>
+<br>
 
 
 
+<a href="https://github.com/Dreamerol/AI-STUDIO" target="_blank">
+  <img
+    src="https://raw.githubusercontent.com/Dreamerol/Dreamerol/main/LINUX3.jpg"
+    alt="LINUX : Mihaela Koseva (Михаела Косева) • Sofia University (Софийски университет) • SMG (СМГ) • Sofia • AI Engineer • Software Engineer""
+    style="width: 100%; height: auto; display: block;"
+  >
+</a>
 
-<h1 align="center"><strong>Advanced Linux utilities for automation, shell scripting, system administration and command-line workflows</strong></h1>
+
 
 
 
@@ -19,10 +38,6 @@
 
 
 
-
-
-
-<img src="https://raw.githubusercontent.com/Dreamerol/Dreamerol/main/LINUX3.jpg" alt="Linux Screenshot" width="100%">
 
 
 
