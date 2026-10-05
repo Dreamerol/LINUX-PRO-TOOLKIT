@@ -4,19 +4,23 @@
 <h1 align="center">
    🐧 <a href="https://github.com/Dreamerol/CARDFOLIO"
      title="linux — CARDFOLIO • Mihaela Koseva (Михаела Косева) • Sofia University (Софийски университет) • SMG (СМГ) • Sofia • AI Engineer">
-    <b>𝗢𝗢𝗣 – 𝗣𝗥𝗜𝗡𝗖𝗜𝗣𝗟𝗘𝗦, 𝗗𝗘𝗦𝗜𝗚𝗡 & 𝗔𝗣𝗣𝗟𝗜𝗖𝗔𝗧𝗜𝗢𝗡𝗦</b>
+    <b>𝗟𝗜𝗡𝗨𝗫 𝗣𝗥𝗢 𝗧𝗢𝗢𝗟𝗞𝗜𝗧</b>
   </a>
 </h1>
 
 
-<a
-  href="https://github.com/Dreamerol/CARDFOLIO"
-  title="LINUX — CARDFOLIO • Mihaela Koseva (Михаела Косева) • Sofia University (Софийски университет) • SMG (СМГ) • Sofia • AI Engineer"
->
-  <h1 align="center">
-    <strong>Advanced Linux utilities for automation, shell scripting, system administration and command-line workflows</strong>
-  </h1>
-</a>
+
+
+
+<h1 align="center">
+     <a href="https://github.com/Dreamerol/CARDFOLIO"
+     title="linux — CARDFOLIO • Mihaela Koseva (Михаела Косева) • Sofia University (Софийски университет) • SMG (СМГ) • Sofia • AI Engineer">
+    <b>Advanced Linux utilities for automation, shell scripting, system administration and command-line workflows</b>
+  </a>
+</h1>
+
+
+
 
 
 <br>
