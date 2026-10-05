@@ -1,13 +1,14 @@
-
-
 <h1 align="center">
-  🐧 <a href="https://github.com/Dreamerol/CARDFOLIO"
-    alt="Mihaela Koseva (Михаела Косева) • Sofia University (Софийски университет) • Software Engineering • AI Engineer • Applied Machine Learning • Data Science • Software Engineer • Backend Engineer • REST APIs • Python • C++ • Java • SQL • Mihaela Koseva (Михаела Косева) • Sofia University (Софийски университет), Sofia"
-    width="100%"/>
+  🐧
+  <a href="https://github.com/Dreamerol/CARDFOLIO">
+    <img
+      src="https://raw.githubusercontent.com/Dreamerol/CARDFOLIO/cdec6535f4ea8291c804a75d4626690d8f184e9c/LINUX-9.png"
+      alt="Mihaela Koseva (Михаела Косева) • Sofia University (Софийски университет) • Software Engineering • AI Engineer • Applied Machine Learning • Data Science • Software Engineer • Backend Engineer • REST APIs • Python • C++ • Java • SQL"
+      width="100%"
+    />
     <b>𝗟𝗜𝗡𝗨𝗫 𝗣𝗥𝗢 𝗧𝗢𝗢𝗟𝗞𝗜𝗧</b>
   </a>
 </h1>
-
 
 <a href="https://github.com/Dreamerol/CARDFOLIO">
    title="LINUX — CARDFOLIO • Mihaela Koseva (Михаела Косева) • Sofia University (Софийски университет) • SMG (СМГ) • Sofia • AI Engineer">
