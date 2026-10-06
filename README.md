@@ -16,6 +16,8 @@
 
 
 
+
+
 <h1 align="center">
      <a href="https://github.com/Dreamerol/CARDFOLIO"
      title="linux — CARDFOLIO • Mihaela Koseva (Михаела Косева) • Sofia University (Софийски университет) • SMG (СМГ) • Sofia • AI Engineer">
@@ -33,7 +35,7 @@
 
 <a href="https://github.com/Dreamerol/AI-STUDIO" target="_blank">
   <img
-    src="https://raw.githubusercontent.com/Dreamerol/Dreamerol/main/LINUX3.jpg"
+    src="https://raw.githubusercontent.com/Dreamerol/Dreamerol/main/LINUX.png"
     alt="LINUX : Mihaela Koseva (Михаела Косева) • Sofia University (Софийски университет) • SMG (СМГ) • Sofia • AI Engineer • Software Engineer""
     style="width: 100%; height: auto; display: block;"
   >
@@ -47,16 +49,6 @@
 
 
 <br>
-
-
-
-
-
-
-
-
-
-
 
 <br>
 
